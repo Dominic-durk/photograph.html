@@ -1,0 +1,39 @@
+body {
+    font-family: Arial,sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(167, 91, 91);
+    color: white;
+    }
+    header, nav, main, section, article, footer {
+        padding: 1rem;
+        margin: o auto;
+        max-width: 1200;
+    }
+    header {
+        background-color: rgb(15, 59, 59);
+        color: azure;
+    }
+    nav {
+        margin-right: 1 rem;
+        text-decoration: none;
+        color: #white;
+        border-color: blue;
+        font-size: 10;
+    }
+    main {
+        padding: 2rem o;
+    }
+    footer {
+        background-color: beige;
+        color: blue;
+        text-align: center;
+        padding: 1rem;
+    }
+ @media screen and (min-width: 480px) {
+    body {
+        background-color: rgb(128, 87, 35);
+        color: white;
+    }
+ }

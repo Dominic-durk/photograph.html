@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Photography Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Photes</h1>
+        <nav>
+            <ul>
+                <li><a href="#photos">Favorite Photos</a></li>
+                <li><a href="#bio">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <p>Welcome to my photography portfolio. Here I showcase my favorite shots and share a bit about myself!</p>
+    </section>
+
+    <section id="photos">
+        <h2>My Favorite Photos</h2>
+        <ul>
+            <li><img src="photo1.jpg" alt="Photo 1 description"></li>
+            <li><img src="photo2.jpg" alt="Photo 2 description"></li>
+            <li><img src="photo3.jpg" alt="Photo 3 description"></li>
+        </ul>
+    </section>
+
+    <section id="bio">
+        <h2>About Me</h2>
+        <img src="me.jpg" alt="Photo of Me">
+        <p>I'm a passionate photographer who loves capturing the beauty of life. I've been practicing photography for several years and specialize in landscape and portrait photography.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 My Photography Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
